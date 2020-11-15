@@ -1,3 +1,3 @@
-# hangman
+# guillotine man
 
-Play hangman: https://marionstaats.github.io/hangman/
+Play hangman: https://marionstaats.github.io/guillotine-man/
