@@ -7,7 +7,7 @@ document.getElementById("btn").addEventListener("click", function(){
 
     //Check for mobile phone
     if(screen.width<600){
-        prompt(); //show keyboard
+        focus(); //show keyboard
     }
 
     //Pick secret word and add underscores secret word
