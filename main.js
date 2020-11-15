@@ -5,6 +5,11 @@ document.getElementById("btn").addEventListener("click", function(){
     document.querySelector(".who").hidden = true;
     document.querySelector(".howmany").hidden = true;
 
+    //Check for mobile phone
+    if(screen.width<600){
+        prompt(); //show keyboard
+    }
+
     //Pick secret word and add underscores secret word
     let charSecretWord = [];
     let radioNumber = document.getElementsByName('number');
