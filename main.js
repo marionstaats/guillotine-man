@@ -7,7 +7,9 @@ document.getElementById("btn").addEventListener("click", function(){
 
     //Check for mobile phone
     if(screen.width<600){
-        focus(); //show keyboard
+        document.querySelector('.questions').insertAdjacentHTML('afterbegin', '<input type="text" id="text" name="text" pattern="[a-z]*" inputmode="text" />');
+        document.getElementById("text").hidden = true;
+        document.getElementById("text").focus();
     }
 
     //Pick secret word and add underscores secret word
