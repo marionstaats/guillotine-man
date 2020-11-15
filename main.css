@@ -96,11 +96,11 @@ h1, .who, .howmany, .go{
     }
     .letterscontainer{
         width: 340px;
-        height: 100px;
+        height: 50px;
     }
     #chosenletter{
-        font-size: 20px;
-        padding:5px;
+        font-size: 15px;
+        padding:2px;
     }
     .guillotinecontainer{
         width: 340px;

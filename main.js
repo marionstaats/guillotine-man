@@ -11,6 +11,7 @@ document.getElementById("btn").addEventListener("click", function(){
         document.getElementById("text").focus();
         document.getElementById("text").hidden = true;
         document.querySelector('h1').hidden = true;
+        document.getElementById("chosen").hidden = true;
     }
 
     //Pick secret word and add underscores secret word
