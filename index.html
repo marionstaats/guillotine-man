@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guillotine Man</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/png" href="./images/guillotine.jpg"/>
+</head>
+<body>
+    <div class="container1">
+        <div class="title">
+            <h1>Guillotine Man</h1>
+            <div class="questions">
+                <div class="who">
+                    <h2>Who's head should be chopped off?</h2>
+                    <input type="radio" id="john" name="gender" value="john" checked="checked">
+                    <label for="john">Bertrand</label>
+                    <input type="radio" id="lisa" name="gender" value="lisa">
+                    <label for="lisa">Magalie</label>    
+                </div>
+                <div class="howmany">
+                    <h2>How many letters should the word contain?</h2>
+                    <input type="radio" id="five" name="number" value="5" checked="checked">
+                    <label for="five">5</label>
+                    <input type="radio" id="six" name="number" value="6">
+                    <label for="six">6</label>
+                    <input type="radio" id="seven" name="number" value="7">
+                    <label for="seven">7</label>
+                    <input type="radio" id="eight" name="number" value="8">
+                    <label for="eight">8</label>
+                    <input type="radio" id="nine" name="number" value="9">
+                    <label for="nine">9</label>
+                    <input type="radio" id="ten" name="number" value="10">
+                    <label for="ten">10</label>
+                </div>
+                <div class="go">
+                    <button type="button" id="btn">START</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="containerleft">
+            <div class="wordcontainer">
+                <h2 id='word'></h2>
+            </div>
+            <div class="letterscontainer">
+                <h2>You've already picked these letters:</h2>
+                <div id="letters"></div>
+            </div>
+        </div>
+        <div class="containerright">
+            <div class="guillotinecontainer">
+                <img src="./images/1.png" id="hangman" alt="hang">
+            </div>
+            <div class="timercontainer">
+                <h2 id="timer"></h2>
+            </div>    
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
