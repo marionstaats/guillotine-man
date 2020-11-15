@@ -45,7 +45,7 @@ document.getElementById("btn").addEventListener("click", function(){
                 document.getElementById('hangman').setAttribute("src", `https://media.giphy.com/media/gIqusaeYxgSiY/giphy.gif`)
                 setTimeout(()=>{ //timeout otherwise alert comes before last pic
                     if(!alert('Game over')){window.location.reload();} //alert + reload page to play again
-                },100)  
+                },150)  
             }
         }
 
