@@ -8,8 +8,8 @@ document.getElementById("btn").addEventListener("click", function(){
     //Check for mobile phone
     if(screen.width<600){
         document.querySelector('.questions').insertAdjacentHTML('afterbegin', '<input type="text" id="text" name="text" pattern="[a-z]*" inputmode="text" />');
-        document.getElementById("text").hidden = true;
         document.getElementById("text").focus();
+        // document.getElementById("text").hidden = true;
     }
 
     //Pick secret word and add underscores secret word
