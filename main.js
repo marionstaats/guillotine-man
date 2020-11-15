@@ -10,6 +10,7 @@ document.getElementById("btn").addEventListener("click", function(){
         document.querySelector('.questions').insertAdjacentHTML('afterbegin', '<input type="text" id="text" name="text" pattern="[a-z]*" inputmode="text" />');
         document.getElementById("text").focus();
         document.getElementById("text").hidden = true;
+        document.querySelector('h1').hidden = true;
     }
 
     //Pick secret word and add underscores secret word
