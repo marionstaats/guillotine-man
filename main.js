@@ -54,7 +54,7 @@ document.getElementById("btn").addEventListener("click", function(){
                 document.getElementById('hangman').setAttribute("src", `https://media.giphy.com/media/gIqusaeYxgSiY/giphy.gif`)
                 setTimeout(()=>{ //timeout otherwise alert comes before last pic
                     if(!alert('Game over')){window.location.reload();} //alert + reload page to play again
-                },150)  
+                },1500)  
             }
         }
 
@@ -102,7 +102,7 @@ document.getElementById("btn").addEventListener("click", function(){
         document.getElementById("timer").innerHTML = "Time is up!";
         setTimeout(()=>{ //timeout otherwise alert comes before Time is up message
             if(!alert('Game over')){window.location.reload();} //alert + reload page to play again
-        },10)  
+        },1000)  
     }
     }, 1000);
 
