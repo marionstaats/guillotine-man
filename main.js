@@ -20,7 +20,7 @@ document.getElementById("btn").addEventListener("click", function(){
     for (let i = 0; i<radioNumber.length; i++) {
         if(radioNumber[i].checked) {
             //Picksecretword
-            fetch(`https://api.wordnik.com/v4/words.json/randomWords?hasDictionaryDef=true&minLength=${i+5}&maxLength=${i+5}&limit=1&api_key=a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5`)
+            fetch(`https://api.wordnik.com/v4/words.json/randomWords?hasDictionaryDef=true&minLength=${i+5}&maxLength=${i+5}&limit=1&api_key=hy6v35gqt9ar46xf5orhso8ui8i9uydv1rddofkd0sbmqlojt`)
                 .then(response => response.json())
                 .then(data => {
                     let secretWord = data[0].word.toLowerCase();
